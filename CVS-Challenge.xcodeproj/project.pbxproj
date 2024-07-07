@@ -14,6 +14,9 @@
 		7A29B5B52C3B33C20093CB08 /* CVS_ChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A29B5B42C3B33C20093CB08 /* CVS_ChallengeTests.swift */; };
 		7A29B5BF2C3B33C20093CB08 /* CVS_ChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A29B5BE2C3B33C20093CB08 /* CVS_ChallengeUITests.swift */; };
 		7A29B5C12C3B33C20093CB08 /* CVS_ChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A29B5C02C3B33C20093CB08 /* CVS_ChallengeUITestsLaunchTests.swift */; };
+		7A29B5CE2C3B364E0093CB08 /* FlickrItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A29B5CD2C3B364E0093CB08 /* FlickrItem.swift */; };
+		7A29B5D02C3B36740093CB08 /* DownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A29B5CF2C3B36740093CB08 /* DownloadManager.swift */; };
+		7A29B5D22C3B36900093CB08 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A29B5D12C3B36900093CB08 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		7A29B5BA2C3B33C20093CB08 /* CVS-ChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CVS-ChallengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A29B5BE2C3B33C20093CB08 /* CVS_ChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVS_ChallengeUITests.swift; sourceTree = "<group>"; };
 		7A29B5C02C3B33C20093CB08 /* CVS_ChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVS_ChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7A29B5CD2C3B364E0093CB08 /* FlickrItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrItem.swift; sourceTree = "<group>"; };
+		7A29B5CF2C3B36740093CB08 /* DownloadManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadManager.swift; sourceTree = "<group>"; };
+		7A29B5D12C3B36900093CB08 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,9 @@
 			children = (
 				7A29B5A32C3B33C00093CB08 /* CVS_ChallengeApp.swift */,
 				7A29B5A52C3B33C00093CB08 /* ContentView.swift */,
+				7A29B5CD2C3B364E0093CB08 /* FlickrItem.swift */,
+				7A29B5CF2C3B36740093CB08 /* DownloadManager.swift */,
+				7A29B5D12C3B36900093CB08 /* DetailView.swift */,
 				7A29B5A72C3B33C20093CB08 /* Assets.xcassets */,
 				7A29B5A92C3B33C20093CB08 /* Preview Content */,
 			);
@@ -259,6 +268,9 @@
 			files = (
 				7A29B5A62C3B33C00093CB08 /* ContentView.swift in Sources */,
 				7A29B5A42C3B33C00093CB08 /* CVS_ChallengeApp.swift in Sources */,
+				7A29B5CE2C3B364E0093CB08 /* FlickrItem.swift in Sources */,
+				7A29B5D22C3B36900093CB08 /* DetailView.swift in Sources */,
+				7A29B5D02C3B36740093CB08 /* DownloadManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
