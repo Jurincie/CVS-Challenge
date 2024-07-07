@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A29B5A42C3B33C00093CB08 /* CVS_ChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A29B5A32C3B33C00093CB08 /* CVS_ChallengeApp.swift */; };
+		7A29B5A62C3B33C00093CB08 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A29B5A52C3B33C00093CB08 /* ContentView.swift */; };
+		7A29B5A82C3B33C20093CB08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A29B5A72C3B33C20093CB08 /* Assets.xcassets */; };
+		7A29B5AB2C3B33C20093CB08 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A29B5AA2C3B33C20093CB08 /* Preview Assets.xcassets */; };
+		7A29B5B52C3B33C20093CB08 /* CVS_ChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A29B5B42C3B33C20093CB08 /* CVS_ChallengeTests.swift */; };
+		7A29B5BF2C3B33C20093CB08 /* CVS_ChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A29B5BE2C3B33C20093CB08 /* CVS_ChallengeUITests.swift */; };
+		7A29B5C12C3B33C20093CB08 /* CVS_ChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A29B5C02C3B33C20093CB08 /* CVS_ChallengeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A29B5B12C3B33C20093CB08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A29B5982C3B33C00093CB08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A29B59F2C3B33C00093CB08;
+			remoteInfo = "CVS-Challenge";
+		};
+		7A29B5BB2C3B33C20093CB08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A29B5982C3B33C00093CB08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A29B59F2C3B33C00093CB08;
+			remoteInfo = "CVS-Challenge";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7A29B5A02C3B33C00093CB08 /* CVS-Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CVS-Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A29B5A32C3B33C00093CB08 /* CVS_ChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVS_ChallengeApp.swift; sourceTree = "<group>"; };
+		7A29B5A52C3B33C00093CB08 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7A29B5A72C3B33C20093CB08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A29B5AA2C3B33C20093CB08 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7A29B5B02C3B33C20093CB08 /* CVS-ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CVS-ChallengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A29B5B42C3B33C20093CB08 /* CVS_ChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVS_ChallengeTests.swift; sourceTree = "<group>"; };
+		7A29B5BA2C3B33C20093CB08 /* CVS-ChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CVS-ChallengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A29B5BE2C3B33C20093CB08 /* CVS_ChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVS_ChallengeUITests.swift; sourceTree = "<group>"; };
+		7A29B5C02C3B33C20093CB08 /* CVS_ChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVS_ChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A29B59D2C3B33C00093CB08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A29B5AD2C3B33C20093CB08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A29B5B72C3B33C20093CB08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A29B5972C3B33C00093CB08 = {
+			isa = PBXGroup;
+			children = (
+				7A29B5A22C3B33C00093CB08 /* CVS-Challenge */,
+				7A29B5B32C3B33C20093CB08 /* CVS-ChallengeTests */,
+				7A29B5BD2C3B33C20093CB08 /* CVS-ChallengeUITests */,
+				7A29B5A12C3B33C00093CB08 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7A29B5A12C3B33C00093CB08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A29B5A02C3B33C00093CB08 /* CVS-Challenge.app */,
+				7A29B5B02C3B33C20093CB08 /* CVS-ChallengeTests.xctest */,
+				7A29B5BA2C3B33C20093CB08 /* CVS-ChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A29B5A22C3B33C00093CB08 /* CVS-Challenge */ = {
+			isa = PBXGroup;
+			children = (
+				7A29B5A32C3B33C00093CB08 /* CVS_ChallengeApp.swift */,
+				7A29B5A52C3B33C00093CB08 /* ContentView.swift */,
+				7A29B5A72C3B33C20093CB08 /* Assets.xcassets */,
+				7A29B5A92C3B33C20093CB08 /* Preview Content */,
+			);
+			path = "CVS-Challenge";
+			sourceTree = "<group>";
+		};
+		7A29B5A92C3B33C20093CB08 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7A29B5AA2C3B33C20093CB08 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7A29B5B32C3B33C20093CB08 /* CVS-ChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				7A29B5B42C3B33C20093CB08 /* CVS_ChallengeTests.swift */,
+			);
+			path = "CVS-ChallengeTests";
+			sourceTree = "<group>";
+		};
+		7A29B5BD2C3B33C20093CB08 /* CVS-ChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7A29B5BE2C3B33C20093CB08 /* CVS_ChallengeUITests.swift */,
+				7A29B5C02C3B33C20093CB08 /* CVS_ChallengeUITestsLaunchTests.swift */,
+			);
+			path = "CVS-ChallengeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A29B59F2C3B33C00093CB08 /* CVS-Challenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A29B5C42C3B33C20093CB08 /* Build configuration list for PBXNativeTarget "CVS-Challenge" */;
+			buildPhases = (
+				7A29B59C2C3B33C00093CB08 /* Sources */,
+				7A29B59D2C3B33C00093CB08 /* Frameworks */,
+				7A29B59E2C3B33C00093CB08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CVS-Challenge";
+			productName = "CVS-Challenge";
+			productReference = 7A29B5A02C3B33C00093CB08 /* CVS-Challenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A29B5AF2C3B33C20093CB08 /* CVS-ChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A29B5C72C3B33C20093CB08 /* Build configuration list for PBXNativeTarget "CVS-ChallengeTests" */;
+			buildPhases = (
+				7A29B5AC2C3B33C20093CB08 /* Sources */,
+				7A29B5AD2C3B33C20093CB08 /* Frameworks */,
+				7A29B5AE2C3B33C20093CB08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A29B5B22C3B33C20093CB08 /* PBXTargetDependency */,
+			);
+			name = "CVS-ChallengeTests";
+			productName = "CVS-ChallengeTests";
+			productReference = 7A29B5B02C3B33C20093CB08 /* CVS-ChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7A29B5B92C3B33C20093CB08 /* CVS-ChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A29B5CA2C3B33C20093CB08 /* Build configuration list for PBXNativeTarget "CVS-ChallengeUITests" */;
+			buildPhases = (
+				7A29B5B62C3B33C20093CB08 /* Sources */,
+				7A29B5B72C3B33C20093CB08 /* Frameworks */,
+				7A29B5B82C3B33C20093CB08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A29B5BC2C3B33C20093CB08 /* PBXTargetDependency */,
+			);
+			name = "CVS-ChallengeUITests";
+			productName = "CVS-ChallengeUITests";
+			productReference = 7A29B5BA2C3B33C20093CB08 /* CVS-ChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A29B5982C3B33C00093CB08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					7A29B59F2C3B33C00093CB08 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					7A29B5AF2C3B33C20093CB08 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 7A29B59F2C3B33C00093CB08;
+					};
+					7A29B5B92C3B33C20093CB08 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 7A29B59F2C3B33C00093CB08;
+					};
+				};
+			};
+			buildConfigurationList = 7A29B59B2C3B33C00093CB08 /* Build configuration list for PBXProject "CVS-Challenge" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A29B5972C3B33C00093CB08;
+			productRefGroup = 7A29B5A12C3B33C00093CB08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A29B59F2C3B33C00093CB08 /* CVS-Challenge */,
+				7A29B5AF2C3B33C20093CB08 /* CVS-ChallengeTests */,
+				7A29B5B92C3B33C20093CB08 /* CVS-ChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A29B59E2C3B33C00093CB08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A29B5AB2C3B33C20093CB08 /* Preview Assets.xcassets in Resources */,
+				7A29B5A82C3B33C20093CB08 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A29B5AE2C3B33C20093CB08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A29B5B82C3B33C20093CB08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A29B59C2C3B33C00093CB08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A29B5A62C3B33C00093CB08 /* ContentView.swift in Sources */,
+				7A29B5A42C3B33C00093CB08 /* CVS_ChallengeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A29B5AC2C3B33C20093CB08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A29B5B52C3B33C20093CB08 /* CVS_ChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A29B5B62C3B33C20093CB08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A29B5BF2C3B33C20093CB08 /* CVS_ChallengeUITests.swift in Sources */,
+				7A29B5C12C3B33C20093CB08 /* CVS_ChallengeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A29B5B22C3B33C20093CB08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A29B59F2C3B33C00093CB08 /* CVS-Challenge */;
+			targetProxy = 7A29B5B12C3B33C20093CB08 /* PBXContainerItemProxy */;
+		};
+		7A29B5BC2C3B33C20093CB08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A29B59F2C3B33C00093CB08 /* CVS-Challenge */;
+			targetProxy = 7A29B5BB2C3B33C20093CB08 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7A29B5C22C3B33C20093CB08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7A29B5C32C3B33C20093CB08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A29B5C52C3B33C20093CB08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CVS-Challenge/Preview Content\"";
+				DEVELOPMENT_TEAM = J5T6Z5N38H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "PixleyConsulting.CVS-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A29B5C62C3B33C20093CB08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CVS-Challenge/Preview Content\"";
+				DEVELOPMENT_TEAM = J5T6Z5N38H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "PixleyConsulting.CVS-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7A29B5C82C3B33C20093CB08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J5T6Z5N38H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "PixleyConsulting.CVS-ChallengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CVS-Challenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CVS-Challenge";
+			};
+			name = Debug;
+		};
+		7A29B5C92C3B33C20093CB08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J5T6Z5N38H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "PixleyConsulting.CVS-ChallengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CVS-Challenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CVS-Challenge";
+			};
+			name = Release;
+		};
+		7A29B5CB2C3B33C20093CB08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J5T6Z5N38H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "PixleyConsulting.CVS-ChallengeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CVS-Challenge";
+			};
+			name = Debug;
+		};
+		7A29B5CC2C3B33C20093CB08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J5T6Z5N38H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "PixleyConsulting.CVS-ChallengeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CVS-Challenge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A29B59B2C3B33C00093CB08 /* Build configuration list for PBXProject "CVS-Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A29B5C22C3B33C20093CB08 /* Debug */,
+				7A29B5C32C3B33C20093CB08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A29B5C42C3B33C20093CB08 /* Build configuration list for PBXNativeTarget "CVS-Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A29B5C52C3B33C20093CB08 /* Debug */,
+				7A29B5C62C3B33C20093CB08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A29B5C72C3B33C20093CB08 /* Build configuration list for PBXNativeTarget "CVS-ChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A29B5C82C3B33C20093CB08 /* Debug */,
+				7A29B5C92C3B33C20093CB08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A29B5CA2C3B33C20093CB08 /* Build configuration list for PBXNativeTarget "CVS-ChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A29B5CB2C3B33C20093CB08 /* Debug */,
+				7A29B5CC2C3B33C20093CB08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A29B5982C3B33C00093CB08 /* Project object */;
+}
